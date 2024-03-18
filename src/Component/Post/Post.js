@@ -1,6 +1,5 @@
 import React from "react";
 import "./Post.css";
-import MsgIcon from "../../Asset/msgIcon.svg";
 import CommentIcon from '../../Asset/commentIcon.svg';
 import Register from '../../Component/AuthWall/Register';
 
@@ -61,15 +60,15 @@ export default function Post() {
         How are you doing today? Would you like to share something with the
         community 🤗
       </div>
-      <div className="newPost">
+      <div className="newPost" onClick={()=>setShowAuthWall(!showAuthWall)}>
         <div className="newPostHeader">Create post</div>
         <div className="newPostInputContainer">
           <div className="msgIcon"><div><span>💬</span></div></div>
-          <input type={"text"} placeholder="How are you feeling today?" />
+          <input type={"text"} placeholder="How are you feeling today?" className="newPostInput" />
         </div>
-        <div className="postBtn" onClick={()=>setShowAuthWall(!showAuthWall)}> Post</div>
+        <div className="postBtn"> Post</div>
       </div>
-      {postData.map(post=>renderPostCard(post))}
+      <div onClick={()=>setShowAuthWall(!showAuthWall)}>{postData.map(post=>renderPostCard(post))}</div>
     </div>
   );
 }

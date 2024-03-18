@@ -132,3 +132,6 @@
   background: rgba(39, 41, 45, 1);
   border-radius: 50%;
 }
+.newPostInput{
+  outline: none;
+}

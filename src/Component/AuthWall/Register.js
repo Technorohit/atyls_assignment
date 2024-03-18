@@ -1,4 +1,3 @@
-import Logo from "../../Asset/Logo.svg";
 import React from "react";
 import "./Auth.css";
 import Eye from "../../Asset/eye.svg";
