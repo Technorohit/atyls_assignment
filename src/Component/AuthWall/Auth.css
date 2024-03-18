@@ -1,0 +1,110 @@
+
+.containerWrapper{
+  padding: 2px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  position: absolute;
+  background: linear-gradient(300deg, 
+  rgba(52,52,52,1) 1%, 
+  rgba(150,150,150,.7) 30%);
+}
+.LoginFormContainer {
+  background: #27292d;
+  min-width: 400px;
+  padding: 40px 30px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+ } 
+.loginHeaderSection {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.welcomeHeader {
+  color: #6b6c70;
+  font-size: 14px;
+  font-weight: 500;
+}
+.loginHeader {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+.Email_Label,
+.Password_Label, .Username_Label {
+  color: #c5c7ca;
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  text-align: left;
+}
+.Password_Label{
+  display: flex;
+  justify-content: space-between;
+}
+.email-field,
+.password-field {
+  margin: 20px 0;
+}
+.emailInput,
+.passwordInput {
+  background: none;
+  border: 1.5px solid #35373b;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #fff;
+  font-weight: 400;
+}
+::placeholder {
+  color: #7f8084;
+}
+.App {
+  font-family: "Inter", sans-serif;
+}
+.Logo{
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    position: absolute;
+}
+.loginCTA{
+  color: white;
+  background: rgba(74, 150, 255, 1);
+  text-align: center;
+  padding: 15px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+.RegisterCTA{
+  color: rgba(127, 128, 132, 1);
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: left;
+}
+.RegisterCTA span{
+  color: #c5c7ca;
+
+}
+.forgotPassword{
+  font-size: 12px;
+}
+.passwordWrapper{
+  display: flex;
+  border: 1.5px solid #35373b;
+  padding-right: 10px;
+}
+.passwordInput{
+  border: none;
+}
+.closeBtn{
+  color: white;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
